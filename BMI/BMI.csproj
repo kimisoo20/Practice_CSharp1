@@ -4,10 +4,10 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{A9685B55-D0FA-489C-ACE6-43128F0A061B}</ProjectGuid>
+    <ProjectGuid>{98A88088-BE80-49FF-A2C4-2DA03DE879D8}</ProjectGuid>
     <OutputType>Exe</OutputType>
-    <RootNamespace>Practice_CSharp1</RootNamespace>
-    <AssemblyName>Practice_CSharp1</AssemblyName>
+    <RootNamespace>BMI</RootNamespace>
+    <AssemblyName>BMI</AssemblyName>
     <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
@@ -43,8 +43,6 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="anime.cs" />
-    <Compile Include="BMI.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>

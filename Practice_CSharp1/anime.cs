@@ -11,7 +11,8 @@ namespace Practice_CSharp1
         //Create Method
         public void Choices()
         {
-            Console.WriteLine(" \nWhich one is better " + Series + " or " + Movie);
+            Console.WriteLine("\nPractice Call Class");
+            Console.WriteLine("Which one is better " + Series + " or " + Movie);
         }
         
     }

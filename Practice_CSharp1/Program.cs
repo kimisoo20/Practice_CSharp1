@@ -4,8 +4,10 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
+
 namespace Practice_CSharp1
 {
+
 
   class Program
     {
@@ -50,7 +52,13 @@ namespace Practice_CSharp1
             BMI.BMI_Calculator();
 
 
-            Console.WriteLine("More C# coding practice otw" );
+            Console.WriteLine("\nArray Example");
+            string[] cars = { "Volvo", "BMW", "Ford", "Mazda" };
+            Console.WriteLine("Your selected car is :"+cars[1]);
+
+            Console.WriteLine("\nMore C# coding practice otw" );
+
+ 
 
         }
     }

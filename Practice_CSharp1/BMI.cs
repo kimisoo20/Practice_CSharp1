@@ -32,8 +32,6 @@ namespace Practice_CSharp1
             //declare variable BMI in double
             double BMI;
             BMI = kg / (m * m);
-
-
             //display user diplay output
             Console.WriteLine("Your Bmi is " + BMI);
             //set conditions for female BMI categories 
